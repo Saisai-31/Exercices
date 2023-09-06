@@ -1,0 +1,249 @@
+
+/* Q1: Reproduire le tableau ci-après en css avec les valeurs qui vont avec */
+td:first-child{
+    font-weight: bolder;
+}
+.ligne1 td:nth-child(3){
+    font-style: oblique;
+}
+.ligne1 td:nth-child(4){
+    font-style: italic;
+}
+.ligne2 td:nth-child(3){
+    font-weight: bold;
+}
+.ligne2 td:nth-child(4){
+    font-weight: bolder;
+}
+.ligne2 td:nth-child(5){
+    font-weight: lighter;
+}
+.ligne3 td:nth-child(n+3){
+    font-weight: bold;
+}
+.ligne4 td:nth-child(2){
+    text-transform: capitalize;
+}
+.ligne4 td:nth-child(3){
+    text-transform: uppercase;
+}
+.ligne4 td:nth-child(4){
+    text-transform: lowercase;
+}
+.ligne4 td:nth-child(5){
+    text-transform: none;
+}
+.ligne5 td:nth-child(2){
+    font-variant: none;
+}
+.ligne5 td:nth-child(3){
+    font-variant: small-caps;
+}
+.ligne6 td:nth-child(2){
+    text-decoration: underline;
+}
+.ligne6 td:nth-child(3){
+    text-decoration: overline;
+}
+.ligne6 td:nth-child(4){
+    text-decoration: line-through;
+}
+
+/* Q2: Placer cette image avec la bonne propriété css (sans utiliser le flexbox) */
+
+p img{
+    vertical-align: middle;
+}
+
+/* Q4: Reproduisez cette représentation avec les attributs et propriétés appropriés */
+.arrondi{
+    background-color: gray;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 60px;
+    width: 300px;
+    text-align: center;
+    padding-top: 30px;
+}
+.pointillé{
+    background-color: gray;
+    border: 2px dotted black;
+    border-radius: 10px;
+    height: 60px;
+    width: 300px;
+    text-align: center;
+    padding-top: 30px;
+}
+.tiret{
+    background-color: gray;
+    border: 2px dashed black;
+    border-radius: 10px;
+    height: 60px;
+    width: 300px;
+    text-align: center;
+    padding-top: 30px;
+}
+.elleptique{
+    background-color: gray;
+    border: 4px solid black;
+    border-radius: 15%;
+    height: 60px;
+    width: 300px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+/* Q5: Coder en html css cette page web. */
+.dotted{
+    border: 4px dotted black;
+    margin-left: 30vw;
+    height:30px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.dashed{
+    border: 4px dashed black;
+    margin-left: 30vw;
+    height:30px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.solid{
+    border: 4px solid black;
+    margin-left: 30vw;
+    height:30px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.double{
+    border: 4px double black;
+    margin-left: 30vw;
+    height:30px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.groove{
+    border: 4px groove black;
+    margin-left: 30vw;
+    height:30px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.ridge{
+    border: 4px ridge black;
+    margin-left: 30vw;
+    height:30px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.inset{
+    border: 4px inset black;
+    margin-left: 30vw;
+    height:30px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.outset{
+    border: 4px outset black;
+    margin-left: 30vw;
+    height:30px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+/* Q6: coder cette page web (sans utiliser le flexbox) */
+.q6{
+    background-color: lightgrey;
+    width: 500px;
+    height: 350px;
+    border: solid 1px;
+    margin: auto;
+}
+
+.q6 p{
+    padding: 15px;
+    font-size: 25px;
+}
+.q61{
+    position: absolute;
+    z-index: 5;
+    margin-left: 300px;
+    width: 200px;
+}
+
+.q62{
+    position: relative;
+    z-index: 3;
+    margin-top: 94px;
+    margin-left: 300px;
+    width: 200px;
+}
+/* Q7: Sans Flexbox, coder cette page web */
+
+.chat{
+    border: 10px solid orange;
+    padding:40px;
+    width: 35vw;
+    background-color: grey;
+    margin: auto;
+}
+.chat p{
+    position: absolute;
+    font-size: larger;
+}
+/*Q8: Coder la page web suivante */
+.p12{
+    width: 27vw;
+    margin: auto;
+    background-color: lightgray;
+}
+
+.p1{
+    width: 250px;
+    border: 5px solid grey;
+    margin-right: 30px;
+    margin-left: 30px;
+    background-color: white;
+    font-size: x-large;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+}
+.p2{
+    width: 200px;
+    border: 5px solid grey;
+    margin-left: 30px;
+    background-color: white;
+    font-size: x-large;
+    padding: 10px;
+}
+
+/* Q9: Code cette page web */
+.pagew{
+    border: 1px solid black;
+    width: 70vw;
+    margin: auto;
+}
+.pagew p{
+    border: 5px solid red;
+    padding: 20px;
+    background-color: grey;
+    margin: 10px;
+
+}
+
+/* Q10: Coder cette page web avec les effets css qui vont avec */
+.ombres{
+    font-weight: bolder;
+    font-size: xx-large;
+    text-shadow: 5px 5px 5px;
+    margin-left: 430px;
+}
+.bloc{
+    border: 1px solid black;
+    width: 30vw;
+    margin: auto;
+    box-shadow: 10px 10px 10px grey;
+}
+
+
