@@ -1,8 +1,21 @@
+/* Exercices Q2 et Q3 */
 table{
     border: 1px solid black;
-    width: 100%;
+    width: 80%;
 }
 
 td{
     border: 1px solid black; 
 }
+
+/* Exercices Q4 */
+.q4 td{
+    padding: 10px;
+}
+
+/* Q5: coder cette page web */
+.Q5{
+    border: 1px solid black;
+    width: 50%;
+}
+
