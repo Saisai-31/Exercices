@@ -1,0 +1,68 @@
+/* Q1: code cette page web */
+.noir{
+    font-size: x-large;
+}
+.rouge{
+    font-size: x-large;
+    color: red;
+}
+.bleu{
+    font-size: x-large;
+    color: blue;
+}
+
+/* Q2: Coder ce tableau dans une page web avec des coins arrondis */
+
+table{
+    width: 80%;
+    background-color: yellow;
+    border-radius: 10px;
+}
+tr{
+    border: 1px solid black;
+    width: 100%;
+}
+.table2{
+    width: 100%;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.table3{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+td{
+    height: 20px;
+}
+.division{
+    height: 50px;
+    font-weight: bolder;
+    font-size: x-large;
+}
+.vide{
+    height: 150px;
+}
+.gris{
+    background-color: gray;
+}
+
+/* Q3: Reproduisez cette représentation avec les attributs et propriétés appropriés */
+.bordure{
+    border: 1px solid black;
+}
+.tab4{
+    width: 100%;
+    background-color: white;
+    border: 1px solid black;
+}
+.tab5{
+    width: 100%;
+    border: 1px solid black;
+}
+.table6{
+    width: 80%;
+    background-color: yellow;
+    
+}
