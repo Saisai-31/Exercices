@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #926239;
+    line-height: 1.6;
+}
+
+#dwwm{
+    background-image: url(beach.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center; /*tac* raccourci*/
+    justify-content: center; /*jcc raccourci*/
+    align-items: center; /*tac raccourcisss*/
+}
+
+#dwwm h1{
+    font-size: 50px;
+}
+
+#dwwm p{
+    font-size: 20px;
+}
+
+#dwwm .button{
+    font-size: 18px;
+    text-decoration: none;
+    color: #926239;
+    border: 1px solid #926239;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+#dwwm .button:hover{
+   background-color: #926239;
+   color: #fff;
+}
