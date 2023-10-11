@@ -82,8 +82,8 @@ img{
         flex-wrap: wrap;
     }
     .bloc{
-        width: 40px;
-        margin: 0 0;
+        width: 40%;
+        margin: 0;
     }
     .bloc:nth-child(1),
     .bloc:nth-child(2){
