@@ -45,3 +45,31 @@ body{
    background-color: #926239;
    color: #fff;
 }
+
+#lorem{
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+}
+#lorem p{
+   text-align: justify ;
+}
+
+.container-fluid{
+    background-color: #926239;
+    height: 100px;
+    font-size: x-large;
+    font-weight: bold;
+}
+.btn-outline-success {
+    color: black;
+    font-weight: bold;
+    font-size: x-large;
+}
+.nav-link{
+    margin-right: 50px;
+}
+.nav-item a:hover{
+    background-color: #198754;
+    border-radius: 10px;
+}

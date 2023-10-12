@@ -45,17 +45,23 @@ img{
 .liste-horaires,
 .liste-medias{
     list-style-type: none;
+    padding-left: 0;
 }
 .liste-services li{
     padding: 2px 0;
+    width: 100%;
 }
 .liste-services a{
     text-decoration: none;
     color: blue;
+    display: block;
 }
 .liste-services a:hover{
     text-decoration: none;
-    background-color:  purple;
+    background-color:  #198754;
+    border-radius: 10px;
+    color: white;
+    padding-left: 5px;
 }
 
 /*medias*/
@@ -73,6 +79,11 @@ img{
     display: flex;
     align-items: center;
     font-size: 25px;
+}
+.liste-medias a:hover{
+    background-color:  #198754;
+    color: white;
+    border-radius: 10px;
 }
 
 /*media queries*/
