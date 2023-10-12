@@ -83,7 +83,7 @@ img{
     }
     .bloc{
         width: 40px;
-        margin: 0 0;
+        margin: 0;
     }
     .bloc:nth-child(1),
     .bloc:nth-child(2){
