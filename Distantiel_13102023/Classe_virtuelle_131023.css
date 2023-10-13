@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+
+h1{
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(0.25turn, #f69d3c, #ebf8e1, #3f87a6);
+    border: 1px solid black;
+}
+
+input,textarea{
+    width: 100%;
+    background-color: #D7EDD0;
+    border: 2px groove lightgrey;
+    font-weight: bold;
+}
+input{
+    height: 30px;
+    text-align: center;
+}
+#nom{
+    border-radius: 20px 20px 0 0;
+}
+#envoi{
+    background-color: lightgrey;
+    font-weight: bold;
+    cursor: pointer;
+}
+#annule{
+    border-radius: 0 0 20px 20px;
+    background-color: lightgrey;
+    font-weight: bold;
+    cursor: pointer;
+}
+fieldset{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    margin: auto;
+}
+legend{
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}
+
+@media screen and (max-width:1200px) {
+    body{
+        background: lightblue;
+       
+    }
+    
+}
+
+@media screen and (max-width:600px) {
+    body{
+        background: sandybrown;
+        
+    }
+}

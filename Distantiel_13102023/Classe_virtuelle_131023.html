@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Classe_virtuelle_131023.css">
+    <title>Evaluation classe virtuelle du 13/10/2023</title>
+</head>
+    <body>
+
+        <h1>Formulaire de contact</h1>
+
+        <form action="" onsubmit="return validerFormulaire();">
+            <fieldset>
+                <legend>Contactez-nous</legend>
+            <input id="nom" type="text" placeholder="Votre nom">
+            <input id="prenom" type="text" placeholder="Votre prénom">
+            <input id="mail" type="email" placeholder="Votre adresse email">
+            <textarea name="" id="message" cols="30" rows="10" placeholder="Entrez votre message"></textarea>
+            <input id="envoi" type="submit" value="Envoyer">
+            <input id="annule" type="reset" value="Annuler">
+        </fieldset>
+        </form>
+    
+        <script>
+            //Je créé ma fontion
+            function validerFormulaire(){
+                //Par id je récupère les champs de mon formulaire
+                let nom = document.getElementById("nom").value;
+                let prenom = document.getElementById("prenom").value;
+                let mail = document.getElementById("mail").value;
+                let message = document.getElementById("message").value;
+
+                //Je vérifie si les champs sont vide
+                if (nom === "" || prenom === "" || mail === "" || message === ""){
+                    alert("Veuillez remplir tous les champs du formulaire");
+                    //J'empêche l'envoi du formulaire
+                    return false;
+                }
+
+                //Si tous les champs du formalaire sont renseignés, il peut être envoyé
+                return true;
+            }
+
+        </script>
+</body>
+</html>
